@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/NSWindow+MSPAUtils.h
+../../../MSPAUtils/Source/NSWindow+MSPAUtils.h

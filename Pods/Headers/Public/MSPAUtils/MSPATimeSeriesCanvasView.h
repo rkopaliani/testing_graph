@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/Time Series Chart/MSPATimeSeriesCanvasView.h
+../../../MSPAUtils/Source/Time Series Chart/MSPATimeSeriesCanvasView.h

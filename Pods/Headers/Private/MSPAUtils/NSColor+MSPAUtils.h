@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/macOS Adapters/NSColor+MSPAUtils.h
+../../../MSPAUtils/Source/macOS Adapters/NSColor+MSPAUtils.h

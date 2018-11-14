@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/Time Series Chart/MSPATimeSeriesDataProcessor.h
+../../../MSPAUtils/Source/Time Series Chart/MSPATimeSeriesDataProcessor.h

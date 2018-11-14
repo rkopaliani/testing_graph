@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/MSPAPlatform.h
+../../../MSPAUtils/Source/MSPAPlatform.h

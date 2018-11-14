@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/Time Series Chart/MSPATimeSeriesEntry.h
+../../../MSPAUtils/Source/Time Series Chart/MSPATimeSeriesEntry.h

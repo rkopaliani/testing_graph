@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/macOS Adapters/NSView+MSPAUtils.h
+../../../MSPAUtils/Source/macOS Adapters/NSView+MSPAUtils.h

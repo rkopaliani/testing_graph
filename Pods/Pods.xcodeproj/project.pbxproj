@@ -7,85 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B24E779539AE5D14EE0A60A8113569 /* BAFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91B5EEB624E8CC8B81E3C6EF55F40 /* BAFunctions.m */; };
-		0A8115DEDA6D8FDF712DCF195C492552 /* MSPANetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A980A634CC236FE5A6727127FD88F7 /* MSPANetworkUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0B15A23E735D63166E9391C62C120C21 /* NSDateFormatter+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B0F114A67F450EA2D724F1F094395E /* NSDateFormatter+MSPAUtils.m */; };
-		0C3B8F913C84A124E143B90624C4C267 /* NSScreen+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB310E61BD5C5102ED2A532701516D32 /* NSScreen+MSPAUtils.m */; };
-		0EFD3B7774FD9FF10AE45852B908B95D /* MSPATimeSeriesCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F490F91D1D54E9626B69B92A6367A2 /* MSPATimeSeriesCanvasView.m */; };
-		1A47C8C8116340FEF41A586D23D43154 /* MSPAUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA4B20C93A1A76E8E32CBD9611D8AEC /* MSPAUtils-dummy.m */; };
-		1E670C509438F0475C8666774E3BB5FD /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		242FA6107FCF2138C5917CC4DD1C2D70 /* MSPATimeSeriesEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCA431F2E3B10EC1D5E103F55FD7B37 /* MSPATimeSeriesEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		27B9DDEB99656D459E5263C92F441704 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2970AE16A5D20C19734B0993A52035A9 /* NSBundle+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC4B33F1AEADCF9D15D81BCCF249ED5 /* NSBundle+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05D286B2B33561D95369574EF60E0F44 /* MSPAVersionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 82633FF958F314193DD023E336C46D0A /* MSPAVersionUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		092D390A1C4A3D8F7EDC592AE961F436 /* MSPATimeSeriesChartBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E7341C711AD2FB1061232CCEF238F98D /* MSPATimeSeriesChartBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E145628C1778C1117EE03207BE8568F /* BALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B88660B2D3CFF58EEA87EB2B7DEA1DC0 /* BALogger.m */; };
+		10A812CE60DD9AE315B648DA7B15F455 /* MSPANetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 755E3AA7F7217C61B86826AD2A01C18E /* MSPANetworkUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		117901F170DE5A8E419417FF554724DF /* BALogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A53B6FDF3F95EBC8AC2B44461BCC69 /* BALogManager.m */; };
+		175626C61A422551A30A52BB4AC2CAD2 /* NSScreen+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B663FC84F66B5638C392CAE88B71080E /* NSScreen+MSPAUtils.m */; };
+		1D20E52D2728B2342B464038A75CF4E7 /* MSPATimeSeriesChartBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BEC2DCE24538476B8EEB11B5198873 /* MSPATimeSeriesChartBase.m */; };
+		1E670C509438F0475C8666774E3BB5FD /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C43FEEB3E23D0C4482987353AF744E8 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2292BBCD94C8009DE6E2AD99966D705A /* NSWindow+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 610197568AE39D422417F6004ADAA4BC /* NSWindow+MSPAUtils.m */; };
+		27B9DDEB99656D459E5263C92F441704 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1FED1D4B4E81C4A00555A82826BE05 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27D083E1C7AA0FB120DF53BB8E574537 /* MSPATimeSeriesCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = C49036A5F8841698CF2A5D0E5F1B0310 /* MSPATimeSeriesCanvasView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		29A3F8F28B2CCC719434C294CB6B38C7 /* Pods-MSPChartTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1106A6D54A3E530A4396ED05B965AD5 /* Pods-MSPChartTesting-dummy.m */; };
-		2D704B613D1699A103DFBEB5FD429B5F /* MSPARandomUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D098E9DD0F60341F0CA6FD17C186AF0 /* MSPARandomUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		32B5A5F662F69A3C1A97745803365016 /* NSAlert+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBCC2D246AD2BC80F96CE8462A6245 /* NSAlert+MSPAUtils.m */; };
-		3596509E8B013C4FDA0EFF9422580A8F /* BALogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 011AC8CD30C9B0F4C9C44C2D4EB5B54E /* BALogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3878F03A2DDC8702ED89ADDCD7403E9B /* MSPAVersionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F88BCB7AE093D4F8A5757E9A8D7FE7 /* MSPAVersionUtils.m */; };
-		3972FE6DA42C0738270CD6602063CC4F /* MSPAFileSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF74712B606DDD0337918D2F4A82A8 /* MSPAFileSystemUtils.m */; };
-		3E38F457E23E7CD25D46FB750754949C /* MSPASystemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 271109785981C0B023B71F3CDDB8A5FD /* MSPASystemUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		493F8DD968A4688D4D7AF1D051313CA2 /* MSPATimeSeriesChartBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9700D46062171C3EC8949F9F096A11EC /* MSPATimeSeriesChartBase.m */; };
-		4E2CEB8B77C15CD86361545501F80968 /* NSAttributedString+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 651201B833B2EE58B7696C5ABECF7ACB /* NSAttributedString+MSPAUtils.m */; };
-		4FBFD26029CF8937C35F42512FDA1A8C /* NSView+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 931F0AE319CB82B5D9CB5C8B0B3F466A /* NSView+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5248C28C5725553B0C16AAAA87AE1103 /* NSFileManager+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BCDC221F8FA75574C13D20CC47228 /* NSFileManager+MSPAUtils.m */; };
-		54238A273A3E7841F2076545E36CF417 /* MSPATimeSeriesCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0BF103CC22A8AB41C9548A6041832 /* MSPATimeSeriesCanvasView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55D041F949CB51D11CD0D6AC124A1692 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		56F1C49CEEA8865A608A1364037A22D0 /* MSPATimeSeriesEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7238E85CBE88EE4CE4885B4784559E /* MSPATimeSeriesEntry.m */; };
-		589B2C92A96B6F331B95EC8BC67FEAC0 /* MSPAPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA3A132ED69D148FBC4D8A46B3485C1 /* MSPAPlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59728FB6A4FD7DE4592DAF14C98EC8C5 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5B6175A4EAD6CA2D68945D338B1825A2 /* MSPAProgressIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3853CD644C06D2DD9EBE326D813EEC9D /* MSPAProgressIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		65435B3C2DD1C60BE418BDE6965D2C69 /* BAFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEE6F11CF371B2EBE4D76D7F41B106D /* BAFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6FA1965187FE3ECFE763530074898408 /* NSView+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B72C15C868F5312E616CFAED28DD54 /* NSView+MSPAUtils.m */; };
-		72C212F94F2FA7D293C9899A71747B8A /* BABase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB375A722F85EF8E8EAC896BD2556B /* BABase64.m */; };
-		73013105CED999430B9868EAB85EBED5 /* NSScrollView+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DA12393B9E452237A0489C3042085 /* NSScrollView+MSPAUtils.m */; };
-		743DEB180E0450A81926E709E2966368 /* MSPARandomUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E5146ECEB21DAC17EC3E385E66E63 /* MSPARandomUtils.m */; };
-		7471F44054F5612F2BBBE24571572336 /* NSButton+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE06466942AC239E03FD6DD1F149C3C /* NSButton+MSPAUtils.m */; };
-		747987D29CA3589AF01BE3BA646BAFD4 /* NSArray+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07F101752760AEAE9FD93B59015DB4 /* NSArray+MSPAUtils.m */; };
-		76251DBB1EA66CCE857ACC6A3B0D122B /* MSPACredentialsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A61DBFBF028675D44D2496DA5B8894B3 /* MSPACredentialsUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		762DF1CEFC987A5D780AAC740D1FBD47 /* NSAlert+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BB12859DF4D4D8008FA375A6CF1F6ECF /* NSAlert+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		78B078E7AD4F37CE23167BA0F9D1E50B /* NSWindow+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E06EA15CAF6F8E0D5BEABF937FD08D50 /* NSWindow+MSPAUtils.m */; };
-		792E24678B378A2D89B4BE54015CE29D /* NSBundle+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD5205AC45B728F2840C98BEEF504D5 /* NSBundle+MSPAUtils.m */; };
-		81F238E784FE7DF6E584DD824FF76DEA /* NSArray+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A0555396195A39AF8A7B77AC032978 /* NSArray+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8525D0422A2C2A35B4274518D95E8082 /* NSFileManager+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCCB992415ACDE2E3AA4B146E18A1A8 /* NSFileManager+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		862C877793F9A90D05C3A00E5900C838 /* NSButton+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0D1E635EA0BF096112A8DACE17CA3E /* NSButton+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88181DE841227E514E9340ECD3E62F08 /* MSPDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB27A51CE7F3FC8337E6E2FBBC94CF6 /* MSPDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88C5B6933BDE6F4FBDC751E15C6FB866 /* NSScreen+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3944AA4E10458B09D23C8F34CD82F6 /* NSScreen+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88D436472250216A5BFF5BCD9462B607 /* NSString+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 114AAE2BB4ED486657FF57801246BE4E /* NSString+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8960DE4AB615FC72B22F223F56154DC4 /* BALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7974D12823807229ED19E682B49FB9 /* BALogger.m */; };
-		929B5665DE7CC83A0CF18FC20CF9134A /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		947549CB2F99B8F6495C773AD723A0FE /* NSImage+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3F8C1ED6CDE282E00C2FBABBE9223F /* NSImage+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		969060947C218376D074B6048074CEBC /* NSMutableString+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF1336481E618C5FB11A90CC3B2CC13 /* NSMutableString+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		98AF9F6B7A19CC8660198CA7E77FAE5D /* NSColor+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BF82540E161CF692180C417D76B9FFE8 /* NSColor+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A75E6B23638CD88D7F29CAF40C710D8 /* MSPATimeSeriesChartBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE833F7E4C32541D08B9D94CE84E289F /* MSPATimeSeriesChartBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A7CDA991D4D8FD8BF1BCFF8C7E60056 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9AF25611A4B3E3299C94FB113BA650EC /* NSScrollView+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC0F2DF86875018F942440F262AD6F9 /* NSScrollView+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B723E893BC671DC51AE92DB1D7E03BA /* NSColor+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E220C2221BD86ED34F909402A28A11A /* NSColor+MSPAUtils.m */; };
-		9F76C4CE01019A63C44DE2061BA89DB9 /* BALogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A001901A62C61E308E15EBC2D2E965 /* BALogManager.m */; };
-		AE83166A0867A01144499B5DBDB678BA /* NSBezierPath+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DA62B29AC21B3F15A1BB31700206A424 /* NSBezierPath+MSPAUtils.m */; };
-		AF66772131C0D8D90E7C480971C01B07 /* MSPATimeSeriesChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B41995371BB3816E5964564E9F3D0 /* MSPATimeSeriesChartView.m */; };
-		B298F3012AAC630AD52A9A95A4CD3AF6 /* MSPASystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B1FC8CB7CB2831D0C7633A1D5E5000 /* MSPASystemUtils.m */; };
-		B2DC39E0474A251C83765113F221C2CB /* MSPAFileSystemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFF9A05B7B0A8AB7DF8E0FB2C65A745 /* MSPAFileSystemUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5F13894FBBBEE766E7514497DB65155 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */; };
-		B69F73B7EEC60DAF9E57CB08B6E649C2 /* NSImage+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD4FAC1FB6091420BA4F480A443119 /* NSImage+MSPAUtils.m */; };
-		B80DBAB77C2D1D23E91997BCE28FDC0B /* MSPANetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48837A0FA65644366E0F2F8D2ED6CF2B /* MSPANetworkUtils.m */; };
-		BBCA3921F91B18BA1272B9B11C5F45BD /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BD660036950D3E84311B22A57C7A3FFD /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BDBA31D903BEA3DD5263CF61C9545452 /* MSPATimeSeriesDataProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = DE954B2B3AAB65B2B339139385F80B00 /* MSPATimeSeriesDataProcessor.m */; };
-		BE80B43F2BA5A2083D3210A6E57627AA /* MSPDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261450766A735807F0DC1EE298F75FA9 /* MSPDView.m */; };
-		C885F61159CEB74AF2EE78507CF1205A /* BALogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A679EE84EB0182E0AF2DC792548A20 /* BALogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA106F67DB5BDB2CE14866728C35FB97 /* MSPAVersionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B9B7A3812E88634892D7E8527B6F53 /* MSPAVersionUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D263F6D4C8DC3014CD312FA07765F59C /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D811555F897FE33EF7E7B2F491EE70F9 /* NSWindow+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 170FC6119F66A89A67ACED109D99591A /* NSWindow+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E19036BE589237E2331E0BD9EBE6BE07 /* NSAttributedString+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 369B680CC250D1EF96EBEA8424AD827B /* NSAttributedString+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2DE88474363C3B5901A813F5843D8A2 /* NSBezierPath+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D6091F37741F121B472905F7AD11E94D /* NSBezierPath+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E76C9ADE417002E7225BDB7EE88F3241 /* MSPACredentialsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B47AA321EA3EF8022CF1141540D15E /* MSPACredentialsUtils.m */; };
-		E99FDF5A825456C20167849DBB445AAD /* MSPAProgressIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D752857E8A940EAFA932E382CBC9390B /* MSPAProgressIndicatorView.m */; };
-		EC7B26FDE96F1ACBDFE7E5985FC9D098 /* NSDateFormatter+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D02ABF3149627D38C1D7BCC9B127CF /* NSDateFormatter+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDB33FA565B234575E23BC88F572A667 /* NSMutableString+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 748347CCB80EE57768BE552CB7EC875E /* NSMutableString+MSPAUtils.m */; };
-		EF81E02FCCC113ADA871412461AB0D49 /* BABase64.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2DCBFB97B3258B59ECDFFB924EB5DF /* BABase64.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F4C0C8380B8EACA4C340E87AFE1D699D /* NSString+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF19E5E6CE129271515F89D33BA2A28 /* NSString+MSPAUtils.m */; };
-		F50F308D483BC7DA2C1568976F488CE7 /* MSPATimeSeriesChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E897CCE6B60185CDBCC9AF6956F135F /* MSPATimeSeriesChartView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F8B6F43515926F21A1C6087694E40CD0 /* MSPATimeSeriesDataProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 614DDD56D4BBDF5B837F6E4B42B46DC5 /* MSPATimeSeriesDataProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2ACBAED496740A6F8C1C447746E7C9AE /* MSPATimeSeriesDataProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE3CCBB3016D8666A312A46637414FD /* MSPATimeSeriesDataProcessor.m */; };
+		2B699E17E013B56D01D8354319E96DC8 /* NSAttributedString+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFADF174010B132BC9A7FDB153E9577 /* NSAttributedString+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FEBCD43E0008D95E513D6E985EB9BEA /* NSView+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AA51B6616BCD5D880CA1CA5E7C5DC237 /* NSView+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34F909D0CF5063D587959EA1E1CC2AF3 /* NSColor+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD256F7DC268868DCC3C7943A2CD942 /* NSColor+MSPAUtils.m */; };
+		35709CEA49803773104A05BCCC85F970 /* MSPATimeSeriesCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B129B3200180850DD296B0B638FA2 /* MSPATimeSeriesCanvasView.m */; };
+		36C83EB13C46B9816018F3E94537CBBF /* MSPANetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF89E5243AE57E92B653FF00F29232 /* MSPANetworkUtils.m */; };
+		38291AEFA4C259A88A3C9352C54B7991 /* MSPAPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CBD7D6A6BD60633FAB49F15697A801 /* MSPAPlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C3B6C9123441080625E62F43FCF8EBE /* NSButton+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE8B1E4B8A354579E33905A82F38855 /* NSButton+MSPAUtils.m */; };
+		3C80872AE6CA281CC22F088C6BD25571 /* NSColor+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 403E957BD3FD239F387F1D5D6150F0BA /* NSColor+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D8639F2FCCCC5B665932B336BCC0453 /* MSPATimeSeriesEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF7F998332A72C183F7570863F7D381 /* MSPATimeSeriesEntry.m */; };
+		458519F53781F9566C938357D06E0966 /* MSPAFileSystemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 782FB66754654B682F8BCC04BEA58AC0 /* MSPAFileSystemUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48B57A2AC68C06F17CD076E67FD6BF40 /* BAFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDAEACB5345AC58123B40FA60FC7F36 /* BAFunctions.m */; };
+		4D5F449C026DF7C5CCB80AE0AFAC3198 /* MSPATimeSeriesChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8D9BBCB6B560C184CA0BF20D3A245C /* MSPATimeSeriesChartView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F38021237370C9ABAAD68DB29C1CAFC /* MSPASystemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 373C8B73E573A99A44A2C1189D6C3F03 /* MSPASystemUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F64C2CC3AEEB2BB4FA2A4B503B63521 /* MSPACredentialsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 892CA51D41FF445606BECCF89531BC73 /* MSPACredentialsUtils.m */; };
+		52F0CE45B72C6D9934CE303426423D6D /* MSPARandomUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF18F66BA903973626F42E5B00F28A9 /* MSPARandomUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55D041F949CB51D11CD0D6AC124A1692 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D781A2F6BA0C4170101736C5B1E79F8 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		585C0BB551FE6B743C34138912B577A8 /* MSPACredentialsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8279EE4DB8539B8577B9D8C11B4BB42E /* MSPACredentialsUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59728FB6A4FD7DE4592DAF14C98EC8C5 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBF7B8C035699FB4657F0FE09973892 /* PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		659DD6F9E8EA4E97DE1727F1F82295DB /* BALogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B693E4350D6F35C20AEC1FF8EB0CDC3 /* BALogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65E800F977A058A091F0B9593C8B08F7 /* MSPDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A80FF7C988F65D6A324474538E27954 /* MSPDView.m */; };
+		687D0E5222827BF48A17C858AAB4C945 /* NSFileManager+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C76596C31E5FE0BEFB831E0E408FFD54 /* NSFileManager+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B0487CE943F9752D1C6F6EBC25D7EB1 /* BABase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4F0F0D027188123365A1EEFF9F7667 /* BABase64.m */; };
+		6B6A5D455E13D2C40B681D7B0765D705 /* NSView+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB010A3C6EBC07088180820D33817AC /* NSView+MSPAUtils.m */; };
+		71993E1DF5CC2799ED15ED56B87649E4 /* NSBezierPath+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE619F24BD17B3EA5793D55E84F005F /* NSBezierPath+MSPAUtils.m */; };
+		74269A80C21675F525E2C5D9D50925D4 /* NSImage+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 098D37F2A5C17602EB3E3401B76A8066 /* NSImage+MSPAUtils.m */; };
+		78BDD62B866EC2447EA07A4AD2BBCC20 /* BAFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B760EFA94E1C2FF0E610F02064E41343 /* BAFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7ACD7D3F99D4B17FA72025C59A1E4803 /* BABase64.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAFBFE1B6D6736F9EA35189E6BB1F34 /* BABase64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B8373A8171DC2DDDB520E001C692F9A /* NSButton+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B09D1F144B2E3E425ABE9910F02F92 /* NSButton+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90F059F7E98AC31D6BCB726A8A606802 /* MSPATimeSeriesChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D987F9A1590B8555BEFCDBACCA8CD32F /* MSPATimeSeriesChartView.m */; };
+		929B5665DE7CC83A0CF18FC20CF9134A /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F34871A63FD9A885198666F09F788C18 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		958790D1C7022989FC960913DE0C66B5 /* NSMutableString+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AABB3DEA1BB922BDCA79BEF2CBA82CB /* NSMutableString+MSPAUtils.m */; };
+		95AEEA18B336EFA7A21FCD0CADD9A8B8 /* NSFileManager+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 169D9A282A6E0D5A497527E511C63AF7 /* NSFileManager+MSPAUtils.m */; };
+		98BB089F81A25EA63253F2724AE586E9 /* NSBundle+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5285AE70194025006766A632D06E449D /* NSBundle+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A7CDA991D4D8FD8BF1BCFF8C7E60056 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F6AECF7E85C286A69087BE16A6CD0B /* NSLayoutConstraint+PureLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9EAF4647E20969DEA1C7CB7B728833D1 /* NSScrollView+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2561FAACA7B375C791F75F7F9E6B9F18 /* NSScrollView+MSPAUtils.m */; };
+		A0D43EA64B418E38101C3E8AECEB2BA5 /* MSPATimeSeriesDataProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 48496A540A4BA4A3621D9A150105B67E /* MSPATimeSeriesDataProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB166DC0688EA9A880A465ACC65D20AA /* NSScrollView+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBA584B486E051E8854A9A4BC1C3F7C /* NSScrollView+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD33EBE0629FD0CB0B0D0825424D450B /* NSBundle+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED7A19CB653372D4F99A3E078AEA49 /* NSBundle+MSPAUtils.m */; };
+		B23ED60CE445E36A91E7C098FDA2A6B4 /* MSPAUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8185849B0FD01AF6B4C8F97B2E22E7 /* MSPAUtils-dummy.m */; };
+		B242C65748C6BD42517E9003B41FF7A9 /* NSAlert+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C752EE7C008546720B32B2E89A8856B6 /* NSAlert+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5F13894FBBBEE766E7514497DB65155 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A58AAEE7603C00A7B331EDFF6806A19F /* PureLayout-dummy.m */; };
+		B60EDC6E1125264954B3ACEB4AB72E17 /* NSDateFormatter+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A5481967EA257A4026478B6A5C0CF /* NSDateFormatter+MSPAUtils.m */; };
+		B6A9AEFF67EC055813634125570E7ECC /* BALogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3E8552BE117515DACA7DF6D47D3D09 /* BALogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B70C05510DDDC7F9DF096E68FF715E03 /* MSPATimeSeriesEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = A64E5FDCCBE46ED825BE5344C0C5497D /* MSPATimeSeriesEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA70CA3D6A38D270B0AD662971ADFD7D /* MSPAProgressIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38EB2E6806202A8F3F17CA9B907F2AF /* MSPAProgressIndicatorView.m */; };
+		BABE60D9C83492CBB72612E240B133A7 /* NSAttributedString+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B612CAB9F797A3B8C3B09D051CA1A3 /* NSAttributedString+MSPAUtils.m */; };
+		BBAC602265C1050507FDB2B273A87C24 /* MSPARandomUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AAEFC03A82565CB0E7576684D4D200 /* MSPARandomUtils.m */; };
+		BBCA3921F91B18BA1272B9B11C5F45BD /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ED71E5F0B81720546798C69964CB520E /* NSArray+PureLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD660036950D3E84311B22A57C7A3FFD /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 076B41797BB0C18B83C2F439CBFEDBFF /* ALView+PureLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFB916726ECD972C4626EBD64BB25754 /* NSMutableString+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0DD8266859770AC052127D5DF9CDBA /* NSMutableString+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1A3932E39F685B2ED3C7463BB11FC69 /* MSPASystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D5D6275FF0D562A73F436654788DA /* MSPASystemUtils.m */; };
+		C1F751279D21798FF882464E4F2081C5 /* NSImage+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 826A38860A326C4C0EEE93B5A292DCBC /* NSImage+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3AD2319EE5BCA074A3050EC65BEF1B8 /* NSString+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B76C0B090C19557C1808A9E475C6BE /* NSString+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C49516976E67C3A9EB455FEBF98353F8 /* NSDateFormatter+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3231C345F876DF14B8C2905C1A8735CD /* NSDateFormatter+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD7C040C0E25F6D6BB14BBDB9936DAA8 /* MSPAProgressIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD98BA433EBD10007F939CFC8E2E2BE /* MSPAProgressIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D04F83B2BE6A0723C019074ACC0648F3 /* NSWindow+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C2EA8727E0066EDD9523BE9BA4946A /* NSWindow+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D263F6D4C8DC3014CD312FA07765F59C /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D363B7ECD96499FE09D54579B3C2BC /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8709615A5E358C497E7536A32542588 /* NSArray+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FCAF1F4EC884F9701C564B6D892FF2 /* NSArray+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D93F6376000DE41AE8DBD7361AA2352F /* NSScreen+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3ADFAAB7A9FF95737581BFEDFC8D18 /* NSScreen+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8DB58B029D4CD63591422C5C575C9B8 /* MSPAFileSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F59EFF5EC9F5308FCBA077BD9794A8 /* MSPAFileSystemUtils.m */; };
+		ED23AE05BABBE04725229E8339D9A15C /* MSPDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB89BE4D7CDDE002D35E87CA78AFCF4 /* MSPDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1BBBF8F0B54D846ED6BAA15E1D010A1 /* NSArray+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ADEBF7166F1DCE4173680A91EEA852 /* NSArray+MSPAUtils.m */; };
+		F70FE2B03B04B05CA1BE82FEAF485AD0 /* NSAlert+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112EC5D42BFD0E39A7886E660E79AB2 /* NSAlert+MSPAUtils.m */; };
+		FBD5E9AEBAB68E3D360C11441AA02A9A /* NSBezierPath+MSPAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A90C219C45E4DDBF8F9D03C1F267C2 /* NSBezierPath+MSPAUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF0AD325CCAECD4A1F3CCC30BFECE181 /* MSPAVersionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AC028733C470CFD3102E83A7CF091CA1 /* MSPAVersionUtils.m */; };
+		FFBDD6678F67A994311D6645F9794AE6 /* NSString+MSPAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE17199858E9E088947D1DA7220557 /* NSString+MSPAUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,99 +106,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011AC8CD30C9B0F4C9C44C2D4EB5B54E /* BALogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BALogManager.h; path = Source/BALogManager.h; sourceTree = "<group>"; };
-		02B1FC8CB7CB2831D0C7633A1D5E5000 /* MSPASystemUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPASystemUtils.m; path = Source/MSPASystemUtils.m; sourceTree = "<group>"; };
-		051635CC27FC1B181068FEAA0CD4DC9B /* MSPAUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSPAUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0A7238E85CBE88EE4CE4885B4784559E /* MSPATimeSeriesEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPATimeSeriesEntry.m; sourceTree = "<group>"; };
-		0AC0F2DF86875018F942440F262AD6F9 /* NSScrollView+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSScrollView+MSPAUtils.h"; sourceTree = "<group>"; };
-		10A0555396195A39AF8A7B77AC032978 /* NSArray+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MSPAUtils.h"; path = "Source/NSArray+MSPAUtils.h"; sourceTree = "<group>"; };
-		114AAE2BB4ED486657FF57801246BE4E /* NSString+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MSPAUtils.h"; path = "Source/NSString+MSPAUtils.h"; sourceTree = "<group>"; };
-		129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		043620AEB87CD5CDE56F9FB5CA456E80 /* MSPAUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPAUtils.xcconfig; sourceTree = "<group>"; };
+		04ADEBF7166F1DCE4173680A91EEA852 /* NSArray+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MSPAUtils.m"; path = "Source/NSArray+MSPAUtils.m"; sourceTree = "<group>"; };
+		05D363B7ECD96499FE09D54579B3C2BC /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		06CBD7D6A6BD60633FAB49F15697A801 /* MSPAPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAPlatform.h; path = Source/MSPAPlatform.h; sourceTree = "<group>"; };
+		076B41797BB0C18B83C2F439CBFEDBFF /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		098D37F2A5C17602EB3E3401B76A8066 /* NSImage+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+MSPAUtils.m"; path = "Source/NSImage+MSPAUtils.m"; sourceTree = "<group>"; };
+		0D781A2F6BA0C4170101736C5B1E79F8 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		0F0DD8266859770AC052127D5DF9CDBA /* NSMutableString+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+MSPAUtils.h"; path = "Source/NSMutableString+MSPAUtils.h"; sourceTree = "<group>"; };
 		166CB2F8D51DD3C72762C2417D586F99 /* libPureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPureLayout.a; path = libPureLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		170FC6119F66A89A67ACED109D99591A /* NSWindow+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSWindow+MSPAUtils.h"; path = "Source/NSWindow+MSPAUtils.h"; sourceTree = "<group>"; };
-		18B72C15C868F5312E616CFAED28DD54 /* NSView+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSView+MSPAUtils.m"; sourceTree = "<group>"; };
-		1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		1C07F101752760AEAE9FD93B59015DB4 /* NSArray+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MSPAUtils.m"; path = "Source/NSArray+MSPAUtils.m"; sourceTree = "<group>"; };
-		1E3F8C1ED6CDE282E00C2FBABBE9223F /* NSImage+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+MSPAUtils.h"; path = "Source/NSImage+MSPAUtils.h"; sourceTree = "<group>"; };
-		261450766A735807F0DC1EE298F75FA9 /* MSPDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPDView.m; sourceTree = "<group>"; };
-		271109785981C0B023B71F3CDDB8A5FD /* MSPASystemUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPASystemUtils.h; path = Source/MSPASystemUtils.h; sourceTree = "<group>"; };
-		27B0BF103CC22A8AB41C9548A6041832 /* MSPATimeSeriesCanvasView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPATimeSeriesCanvasView.h; sourceTree = "<group>"; };
-		2FCCB992415ACDE2E3AA4B146E18A1A8 /* NSFileManager+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+MSPAUtils.h"; path = "Source/NSFileManager+MSPAUtils.h"; sourceTree = "<group>"; };
-		369B680CC250D1EF96EBEA8424AD827B /* NSAttributedString+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+MSPAUtils.h"; path = "Source/NSAttributedString+MSPAUtils.h"; sourceTree = "<group>"; };
-		3853CD644C06D2DD9EBE326D813EEC9D /* MSPAProgressIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPAProgressIndicatorView.h; sourceTree = "<group>"; };
-		3B6BCDC221F8FA75574C13D20CC47228 /* NSFileManager+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+MSPAUtils.m"; path = "Source/NSFileManager+MSPAUtils.m"; sourceTree = "<group>"; };
-		3DF1336481E618C5FB11A90CC3B2CC13 /* NSMutableString+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+MSPAUtils.h"; path = "Source/NSMutableString+MSPAUtils.h"; sourceTree = "<group>"; };
-		44506F78E4A4CCDD0DE0D4EEBE6F867D /* MSPAUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPAUtils-prefix.pch"; sourceTree = "<group>"; };
-		45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		48837A0FA65644366E0F2F8D2ED6CF2B /* MSPANetworkUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPANetworkUtils.m; path = Source/MSPANetworkUtils.m; sourceTree = "<group>"; };
-		4DEBCC2D246AD2BC80F96CE8462A6245 /* NSAlert+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAlert+MSPAUtils.m"; path = "Source/NSAlert+MSPAUtils.m"; sourceTree = "<group>"; };
-		4EAD4FAC1FB6091420BA4F480A443119 /* NSImage+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+MSPAUtils.m"; path = "Source/NSImage+MSPAUtils.m"; sourceTree = "<group>"; };
-		57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		5AB91B5EEB624E8CC8B81E3C6EF55F40 /* BAFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAFunctions.m; path = Source/BAFunctions.m; sourceTree = "<group>"; };
-		5D098E9DD0F60341F0CA6FD17C186AF0 /* MSPARandomUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPARandomUtils.h; path = Source/MSPARandomUtils.h; sourceTree = "<group>"; };
-		5DE06466942AC239E03FD6DD1F149C3C /* NSButton+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+MSPAUtils.m"; path = "Source/NSButton+MSPAUtils.m"; sourceTree = "<group>"; };
-		5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		169D9A282A6E0D5A497527E511C63AF7 /* NSFileManager+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+MSPAUtils.m"; path = "Source/NSFileManager+MSPAUtils.m"; sourceTree = "<group>"; };
+		20B612CAB9F797A3B8C3B09D051CA1A3 /* NSAttributedString+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+MSPAUtils.m"; path = "Source/NSAttributedString+MSPAUtils.m"; sourceTree = "<group>"; };
+		2561FAACA7B375C791F75F7F9E6B9F18 /* NSScrollView+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScrollView+MSPAUtils.m"; path = "Source/macOS Adapters/NSScrollView+MSPAUtils.m"; sourceTree = "<group>"; };
+		2C43FEEB3E23D0C4482987353AF744E8 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		3112EC5D42BFD0E39A7886E660E79AB2 /* NSAlert+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAlert+MSPAUtils.m"; path = "Source/NSAlert+MSPAUtils.m"; sourceTree = "<group>"; };
+		3231C345F876DF14B8C2905C1A8735CD /* NSDateFormatter+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+MSPAUtils.h"; path = "Source/NSDateFormatter+MSPAUtils.h"; sourceTree = "<group>"; };
+		373C8B73E573A99A44A2C1189D6C3F03 /* MSPASystemUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPASystemUtils.h; path = Source/MSPASystemUtils.h; sourceTree = "<group>"; };
+		3A80FF7C988F65D6A324474538E27954 /* MSPDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPDView.m; path = "Source/macOS Adapters/MSPDView.m"; sourceTree = "<group>"; };
+		3FD98BA433EBD10007F939CFC8E2E2BE /* MSPAProgressIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAProgressIndicatorView.h; path = "Source/Progress Indicator/MSPAProgressIndicatorView.h"; sourceTree = "<group>"; };
+		403E957BD3FD239F387F1D5D6150F0BA /* NSColor+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSColor+MSPAUtils.h"; path = "Source/macOS Adapters/NSColor+MSPAUtils.h"; sourceTree = "<group>"; };
+		48496A540A4BA4A3621D9A150105B67E /* MSPATimeSeriesDataProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPATimeSeriesDataProcessor.h; path = "Source/Time Series Chart/MSPATimeSeriesDataProcessor.h"; sourceTree = "<group>"; };
+		49B09D1F144B2E3E425ABE9910F02F92 /* NSButton+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+MSPAUtils.h"; path = "Source/NSButton+MSPAUtils.h"; sourceTree = "<group>"; };
+		4AABB3DEA1BB922BDCA79BEF2CBA82CB /* NSMutableString+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+MSPAUtils.m"; path = "Source/NSMutableString+MSPAUtils.m"; sourceTree = "<group>"; };
+		4FB89BE4D7CDDE002D35E87CA78AFCF4 /* MSPDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPDView.h; path = "Source/macOS Adapters/MSPDView.h"; sourceTree = "<group>"; };
+		5285AE70194025006766A632D06E449D /* NSBundle+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MSPAUtils.h"; path = "Source/NSBundle+MSPAUtils.h"; sourceTree = "<group>"; };
+		5DB010A3C6EBC07088180820D33817AC /* NSView+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSView+MSPAUtils.m"; path = "Source/macOS Adapters/NSView+MSPAUtils.m"; sourceTree = "<group>"; };
 		6050EBE6FA0283202904EA192F1B3531 /* Pods-MSPChartTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSPChartTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
-		614DDD56D4BBDF5B837F6E4B42B46DC5 /* MSPATimeSeriesDataProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPATimeSeriesDataProcessor.h; sourceTree = "<group>"; };
-		62D02ABF3149627D38C1D7BCC9B127CF /* NSDateFormatter+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+MSPAUtils.h"; path = "Source/NSDateFormatter+MSPAUtils.h"; sourceTree = "<group>"; };
-		651201B833B2EE58B7696C5ABECF7ACB /* NSAttributedString+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+MSPAUtils.m"; path = "Source/NSAttributedString+MSPAUtils.m"; sourceTree = "<group>"; };
-		6CEE6F11CF371B2EBE4D76D7F41B106D /* BAFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAFunctions.h; path = Source/BAFunctions.h; sourceTree = "<group>"; };
-		6E0D1E635EA0BF096112A8DACE17CA3E /* NSButton+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+MSPAUtils.h"; path = "Source/NSButton+MSPAUtils.h"; sourceTree = "<group>"; };
-		6E897CCE6B60185CDBCC9AF6956F135F /* MSPATimeSeriesChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPATimeSeriesChartView.h; sourceTree = "<group>"; };
-		6FF19E5E6CE129271515F89D33BA2A28 /* NSString+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MSPAUtils.m"; path = "Source/NSString+MSPAUtils.m"; sourceTree = "<group>"; };
-		72B0F114A67F450EA2D724F1F094395E /* NSDateFormatter+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+MSPAUtils.m"; path = "Source/NSDateFormatter+MSPAUtils.m"; sourceTree = "<group>"; };
-		748347CCB80EE57768BE552CB7EC875E /* NSMutableString+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+MSPAUtils.m"; path = "Source/NSMutableString+MSPAUtils.m"; sourceTree = "<group>"; };
+		610197568AE39D422417F6004ADAA4BC /* NSWindow+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSWindow+MSPAUtils.m"; path = "Source/NSWindow+MSPAUtils.m"; sourceTree = "<group>"; };
+		62A53B6FDF3F95EBC8AC2B44461BCC69 /* BALogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BALogManager.m; path = Source/BALogManager.m; sourceTree = "<group>"; };
+		67BEC2DCE24538476B8EEB11B5198873 /* MSPATimeSeriesChartBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPATimeSeriesChartBase.m; path = "Source/Time Series Chart/MSPATimeSeriesChartBase.m"; sourceTree = "<group>"; };
+		6C8185849B0FD01AF6B4C8F97B2E22E7 /* MSPAUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPAUtils-dummy.m"; sourceTree = "<group>"; };
+		6CBF7B8C035699FB4657F0FE09973892 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		755E3AA7F7217C61B86826AD2A01C18E /* MSPANetworkUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPANetworkUtils.h; path = Source/MSPANetworkUtils.h; sourceTree = "<group>"; };
+		75DE17199858E9E088947D1DA7220557 /* NSString+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MSPAUtils.m"; path = "Source/NSString+MSPAUtils.m"; sourceTree = "<group>"; };
+		782FB66754654B682F8BCC04BEA58AC0 /* MSPAFileSystemUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAFileSystemUtils.h; path = Source/MSPAFileSystemUtils.h; sourceTree = "<group>"; };
 		784B875D28FC9CC287A9ED161868BE40 /* libPods-MSPChartTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSPChartTesting.a"; path = "libPods-MSPChartTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D2B41995371BB3816E5964564E9F3D0 /* MSPATimeSeriesChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPATimeSeriesChartView.m; sourceTree = "<group>"; };
-		7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		81F490F91D1D54E9626B69B92A6367A2 /* MSPATimeSeriesCanvasView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPATimeSeriesCanvasView.m; sourceTree = "<group>"; };
-		873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		8A4E5146ECEB21DAC17EC3E385E66E63 /* MSPARandomUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPARandomUtils.m; path = Source/MSPARandomUtils.m; sourceTree = "<group>"; };
-		8E220C2221BD86ED34F909402A28A11A /* NSColor+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSColor+MSPAUtils.m"; sourceTree = "<group>"; };
-		8FB27A51CE7F3FC8337E6E2FBBC94CF6 /* MSPDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPDView.h; sourceTree = "<group>"; };
+		795A5481967EA257A4026478B6A5C0CF /* NSDateFormatter+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+MSPAUtils.m"; path = "Source/NSDateFormatter+MSPAUtils.m"; sourceTree = "<group>"; };
+		7DBA584B486E051E8854A9A4BC1C3F7C /* NSScrollView+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScrollView+MSPAUtils.h"; path = "Source/macOS Adapters/NSScrollView+MSPAUtils.h"; sourceTree = "<group>"; };
+		7FD256F7DC268868DCC3C7943A2CD942 /* NSColor+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSColor+MSPAUtils.m"; path = "Source/macOS Adapters/NSColor+MSPAUtils.m"; sourceTree = "<group>"; };
+		7FEF89E5243AE57E92B653FF00F29232 /* MSPANetworkUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPANetworkUtils.m; path = Source/MSPANetworkUtils.m; sourceTree = "<group>"; };
+		82633FF958F314193DD023E336C46D0A /* MSPAVersionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAVersionUtils.h; path = Source/MSPAVersionUtils.h; sourceTree = "<group>"; };
+		826A38860A326C4C0EEE93B5A292DCBC /* NSImage+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+MSPAUtils.h"; path = "Source/NSImage+MSPAUtils.h"; sourceTree = "<group>"; };
+		8279EE4DB8539B8577B9D8C11B4BB42E /* MSPACredentialsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPACredentialsUtils.h; path = Source/MSPACredentialsUtils.h; sourceTree = "<group>"; };
+		83BEFE42834BB1CA5B21AA419DB90B69 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		892CA51D41FF445606BECCF89531BC73 /* MSPACredentialsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPACredentialsUtils.m; path = Source/MSPACredentialsUtils.m; sourceTree = "<group>"; };
+		8B693E4350D6F35C20AEC1FF8EB0CDC3 /* BALogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BALogger.h; path = Source/BALogger.h; sourceTree = "<group>"; };
+		8CDAEACB5345AC58123B40FA60FC7F36 /* BAFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAFunctions.m; path = Source/BAFunctions.m; sourceTree = "<group>"; };
+		8FF18F66BA903973626F42E5B00F28A9 /* MSPARandomUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPARandomUtils.h; path = Source/MSPARandomUtils.h; sourceTree = "<group>"; };
 		9165EF881F2A920DAC1D36D9D66A5198 /* Pods-MSPChartTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPChartTesting.debug.xcconfig"; sourceTree = "<group>"; };
-		931F0AE319CB82B5D9CB5C8B0B3F466A /* NSView+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSView+MSPAUtils.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94A980A634CC236FE5A6727127FD88F7 /* MSPANetworkUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPANetworkUtils.h; path = Source/MSPANetworkUtils.h; sourceTree = "<group>"; };
-		9700D46062171C3EC8949F9F096A11EC /* MSPATimeSeriesChartBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPATimeSeriesChartBase.m; sourceTree = "<group>"; };
+		94ED7A19CB653372D4F99A3E078AEA49 /* NSBundle+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MSPAUtils.m"; path = "Source/NSBundle+MSPAUtils.m"; sourceTree = "<group>"; };
+		A2A90C219C45E4DDBF8F9D03C1F267C2 /* NSBezierPath+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+MSPAUtils.h"; path = "Source/macOS Adapters/NSBezierPath+MSPAUtils.h"; sourceTree = "<group>"; };
 		A565BC5237BECBC9B81A27BA3C6C9730 /* Pods-MSPChartTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSPChartTesting-acknowledgements.plist"; sourceTree = "<group>"; };
-		A61DBFBF028675D44D2496DA5B8894B3 /* MSPACredentialsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPACredentialsUtils.h; path = Source/MSPACredentialsUtils.h; sourceTree = "<group>"; };
-		ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
-		AEA4B20C93A1A76E8E32CBD9611D8AEC /* MSPAUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSPAUtils-dummy.m"; sourceTree = "<group>"; };
-		BB12859DF4D4D8008FA375A6CF1F6ECF /* NSAlert+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAlert+MSPAUtils.h"; path = "Source/NSAlert+MSPAUtils.h"; sourceTree = "<group>"; };
-		BBEB375A722F85EF8E8EAC896BD2556B /* BABase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BABase64.m; path = Source/BABase64.m; sourceTree = "<group>"; };
-		BCD5205AC45B728F2840C98BEEF504D5 /* NSBundle+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MSPAUtils.m"; path = "Source/NSBundle+MSPAUtils.m"; sourceTree = "<group>"; };
-		BF82540E161CF692180C417D76B9FFE8 /* NSColor+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSColor+MSPAUtils.h"; sourceTree = "<group>"; };
-		C2EF74712B606DDD0337918D2F4A82A8 /* MSPAFileSystemUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPAFileSystemUtils.m; path = Source/MSPAFileSystemUtils.m; sourceTree = "<group>"; };
-		C7A679EE84EB0182E0AF2DC792548A20 /* BALogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BALogger.h; path = Source/BALogger.h; sourceTree = "<group>"; };
+		A58AAEE7603C00A7B331EDFF6806A19F /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		A64E5FDCCBE46ED825BE5344C0C5497D /* MSPATimeSeriesEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPATimeSeriesEntry.h; path = "Source/Time Series Chart/MSPATimeSeriesEntry.h"; sourceTree = "<group>"; };
+		AA51B6616BCD5D880CA1CA5E7C5DC237 /* NSView+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSView+MSPAUtils.h"; path = "Source/macOS Adapters/NSView+MSPAUtils.h"; sourceTree = "<group>"; };
+		AA52A2149072291D2583BB8D1987CC2E /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		AC028733C470CFD3102E83A7CF091CA1 /* MSPAVersionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPAVersionUtils.m; path = Source/MSPAVersionUtils.m; sourceTree = "<group>"; };
+		AD3ADFAAB7A9FF95737581BFEDFC8D18 /* NSScreen+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScreen+MSPAUtils.h"; path = "Source/NSScreen+MSPAUtils.h"; sourceTree = "<group>"; };
+		AE3E8552BE117515DACA7DF6D47D3D09 /* BALogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BALogManager.h; path = Source/BALogManager.h; sourceTree = "<group>"; };
+		B3AAEFC03A82565CB0E7576684D4D200 /* MSPARandomUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPARandomUtils.m; path = Source/MSPARandomUtils.m; sourceTree = "<group>"; };
+		B663FC84F66B5638C392CAE88B71080E /* NSScreen+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScreen+MSPAUtils.m"; path = "Source/NSScreen+MSPAUtils.m"; sourceTree = "<group>"; };
+		B760EFA94E1C2FF0E610F02064E41343 /* BAFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAFunctions.h; path = Source/BAFunctions.h; sourceTree = "<group>"; };
+		B88660B2D3CFF58EEA87EB2B7DEA1DC0 /* BALogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BALogger.m; path = Source/BALogger.m; sourceTree = "<group>"; };
+		BC3D5D6275FF0D562A73F436654788DA /* MSPASystemUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPASystemUtils.m; path = Source/MSPASystemUtils.m; sourceTree = "<group>"; };
+		BDFADF174010B132BC9A7FDB153E9577 /* NSAttributedString+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+MSPAUtils.h"; path = "Source/NSAttributedString+MSPAUtils.h"; sourceTree = "<group>"; };
+		BEAFBFE1B6D6736F9EA35189E6BB1F34 /* BABase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BABase64.h; path = Source/BABase64.h; sourceTree = "<group>"; };
+		BF4F0F0D027188123365A1EEFF9F7667 /* BABase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BABase64.m; path = Source/BABase64.m; sourceTree = "<group>"; };
+		BFE3CCBB3016D8666A312A46637414FD /* MSPATimeSeriesDataProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPATimeSeriesDataProcessor.m; path = "Source/Time Series Chart/MSPATimeSeriesDataProcessor.m"; sourceTree = "<group>"; };
+		C2F2FDA861BB938F5396A504402F6C97 /* MSPAUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSPAUtils-prefix.pch"; sourceTree = "<group>"; };
+		C49036A5F8841698CF2A5D0E5F1B0310 /* MSPATimeSeriesCanvasView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPATimeSeriesCanvasView.h; path = "Source/Time Series Chart/MSPATimeSeriesCanvasView.h"; sourceTree = "<group>"; };
+		C752EE7C008546720B32B2E89A8856B6 /* NSAlert+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAlert+MSPAUtils.h"; path = "Source/NSAlert+MSPAUtils.h"; sourceTree = "<group>"; };
+		C76596C31E5FE0BEFB831E0E408FFD54 /* NSFileManager+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+MSPAUtils.h"; path = "Source/NSFileManager+MSPAUtils.h"; sourceTree = "<group>"; };
 		CAB3C6A83C1FF4DA778C1966DBA7CBEE /* Pods-MSPChartTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSPChartTesting.release.xcconfig"; sourceTree = "<group>"; };
-		CB310E61BD5C5102ED2A532701516D32 /* NSScreen+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScreen+MSPAUtils.m"; path = "Source/NSScreen+MSPAUtils.m"; sourceTree = "<group>"; };
-		CDCA431F2E3B10EC1D5E103F55FD7B37 /* MSPATimeSeriesEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPATimeSeriesEntry.h; sourceTree = "<group>"; };
-		CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		D6091F37741F121B472905F7AD11E94D /* NSBezierPath+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+MSPAUtils.h"; sourceTree = "<group>"; };
-		D752857E8A940EAFA932E382CBC9390B /* MSPAProgressIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPAProgressIndicatorView.m; sourceTree = "<group>"; };
-		DA62B29AC21B3F15A1BB31700206A424 /* NSBezierPath+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+MSPAUtils.m"; sourceTree = "<group>"; };
-		DE833F7E4C32541D08B9D94CE84E289F /* MSPATimeSeriesChartBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSPATimeSeriesChartBase.h; sourceTree = "<group>"; };
-		DE954B2B3AAB65B2B339139385F80B00 /* MSPATimeSeriesDataProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSPATimeSeriesDataProcessor.m; sourceTree = "<group>"; };
-		E06EA15CAF6F8E0D5BEABF937FD08D50 /* NSWindow+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSWindow+MSPAUtils.m"; path = "Source/NSWindow+MSPAUtils.m"; sourceTree = "<group>"; };
-		E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		CDE8B1E4B8A354579E33905A82F38855 /* NSButton+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+MSPAUtils.m"; path = "Source/NSButton+MSPAUtils.m"; sourceTree = "<group>"; };
+		CEE619F24BD17B3EA5793D55E84F005F /* NSBezierPath+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+MSPAUtils.m"; path = "Source/macOS Adapters/NSBezierPath+MSPAUtils.m"; sourceTree = "<group>"; };
+		D46B129B3200180850DD296B0B638FA2 /* MSPATimeSeriesCanvasView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPATimeSeriesCanvasView.m; path = "Source/Time Series Chart/MSPATimeSeriesCanvasView.m"; sourceTree = "<group>"; };
+		D5F59EFF5EC9F5308FCBA077BD9794A8 /* MSPAFileSystemUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPAFileSystemUtils.m; path = Source/MSPAFileSystemUtils.m; sourceTree = "<group>"; };
+		D987F9A1590B8555BEFCDBACCA8CD32F /* MSPATimeSeriesChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPATimeSeriesChartView.m; path = "Source/Time Series Chart/MSPATimeSeriesChartView.m"; sourceTree = "<group>"; };
+		D9C2EA8727E0066EDD9523BE9BA4946A /* NSWindow+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSWindow+MSPAUtils.h"; path = "Source/NSWindow+MSPAUtils.h"; sourceTree = "<group>"; };
+		DF8D9BBCB6B560C184CA0BF20D3A245C /* MSPATimeSeriesChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPATimeSeriesChartView.h; path = "Source/Time Series Chart/MSPATimeSeriesChartView.h"; sourceTree = "<group>"; };
+		E0FCAF1F4EC884F9701C564B6D892FF2 /* NSArray+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MSPAUtils.h"; path = "Source/NSArray+MSPAUtils.h"; sourceTree = "<group>"; };
+		E5B76C0B090C19557C1808A9E475C6BE /* NSString+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MSPAUtils.h"; path = "Source/NSString+MSPAUtils.h"; sourceTree = "<group>"; };
 		E5F7977F7BFD2330665576AF0AD17513 /* libMSPAUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSPAUtils.a; path = libMSPAUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7B47AA321EA3EF8022CF1141540D15E /* MSPACredentialsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPACredentialsUtils.m; path = Source/MSPACredentialsUtils.m; sourceTree = "<group>"; };
-		E7F88BCB7AE093D4F8A5757E9A8D7FE7 /* MSPAVersionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPAVersionUtils.m; path = Source/MSPAVersionUtils.m; sourceTree = "<group>"; };
-		E86055AF6DEB078F3B3FA7B6AE223F12 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
-		EA3944AA4E10458B09D23C8F34CD82F6 /* NSScreen+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScreen+MSPAUtils.h"; path = "Source/NSScreen+MSPAUtils.h"; sourceTree = "<group>"; };
-		EBC4B33F1AEADCF9D15D81BCCF249ED5 /* NSBundle+MSPAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MSPAUtils.h"; path = "Source/NSBundle+MSPAUtils.h"; sourceTree = "<group>"; };
-		EFA3A132ED69D148FBC4D8A46B3485C1 /* MSPAPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAPlatform.h; path = Source/MSPAPlatform.h; sourceTree = "<group>"; };
-		F0A001901A62C61E308E15EBC2D2E965 /* BALogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BALogManager.m; path = Source/BALogManager.m; sourceTree = "<group>"; };
+		E7341C711AD2FB1061232CCEF238F98D /* MSPATimeSeriesChartBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPATimeSeriesChartBase.h; path = "Source/Time Series Chart/MSPATimeSeriesChartBase.h"; sourceTree = "<group>"; };
+		E8F6AECF7E85C286A69087BE16A6CD0B /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		ED71E5F0B81720546798C69964CB520E /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		EEF7F998332A72C183F7570863F7D381 /* MSPATimeSeriesEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPATimeSeriesEntry.m; path = "Source/Time Series Chart/MSPATimeSeriesEntry.m"; sourceTree = "<group>"; };
+		EF1FED1D4B4E81C4A00555A82826BE05 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		F1106A6D54A3E530A4396ED05B965AD5 /* Pods-MSPChartTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSPChartTesting-dummy.m"; sourceTree = "<group>"; };
-		F4B9B7A3812E88634892D7E8527B6F53 /* MSPAVersionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAVersionUtils.h; path = Source/MSPAVersionUtils.h; sourceTree = "<group>"; };
-		F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		F59DA12393B9E452237A0489C3042085 /* NSScrollView+MSPAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSScrollView+MSPAUtils.m"; sourceTree = "<group>"; };
-		FCFF9A05B7B0A8AB7DF8E0FB2C65A745 /* MSPAFileSystemUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPAFileSystemUtils.h; path = Source/MSPAFileSystemUtils.h; sourceTree = "<group>"; };
-		FF0377FE6A26030A7CB5A0A8769EB706 /* MSPAUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSPAUtils.xcconfig; sourceTree = "<group>"; };
-		FF2DCBFB97B3258B59ECDFFB924EB5DF /* BABase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BABase64.h; path = Source/BABase64.h; sourceTree = "<group>"; };
-		FF7974D12823807229ED19E682B49FB9 /* BALogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BALogger.m; path = Source/BALogger.m; sourceTree = "<group>"; };
+		F34871A63FD9A885198666F09F788C18 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		F38EB2E6806202A8F3F17CA9B907F2AF /* MSPAProgressIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSPAProgressIndicatorView.m; path = "Source/Progress Indicator/MSPAProgressIndicatorView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +224,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02B7879A86D3983219ADF7FB6E0AF30B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				043620AEB87CD5CDE56F9FB5CA456E80 /* MSPAUtils.xcconfig */,
+				6C8185849B0FD01AF6B4C8F97B2E22E7 /* MSPAUtils-dummy.m */,
+				C2F2FDA861BB938F5396A504402F6C97 /* MSPAUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSPAUtils";
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,21 +252,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C91F819F36CEE6F67C10E63F189A6F3 /* Pod */ = {
+		2996D7E98481DD3867B69987A91189DF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E86055AF6DEB078F3B3FA7B6AE223F12 /* LICENSE.md */,
-				051635CC27FC1B181068FEAA0CD4DC9B /* MSPAUtils.podspec */,
+				83BEFE42834BB1CA5B21AA419DB90B69 /* PureLayout.xcconfig */,
+				A58AAEE7603C00A7B331EDFF6806A19F /* PureLayout-dummy.m */,
+				AA52A2149072291D2583BB8D1987CC2E /* PureLayout-prefix.pch */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
-		7517E16435AD993B61D1FF8FCF83496E /* Development Pods */ = {
+		42DD93174BBCFB99287692DD2D480412 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92BF0923E938639C2A890A69FE825E21 /* MSPAUtils */,
+				8CE5C4EBDA389FC5F13BD12B0BF98341 /* MSPAUtils */,
+				789AF92A2D2B75F70D6E8FC942FBC3EE /* PureLayout */,
 			);
-			name = "Development Pods";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		789AF92A2D2B75F70D6E8FC942FBC3EE /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0D781A2F6BA0C4170101736C5B1E79F8 /* ALView+PureLayout.h */,
+				076B41797BB0C18B83C2F439CBFEDBFF /* ALView+PureLayout.m */,
+				2C43FEEB3E23D0C4482987353AF744E8 /* NSArray+PureLayout.h */,
+				ED71E5F0B81720546798C69964CB520E /* NSArray+PureLayout.m */,
+				F34871A63FD9A885198666F09F788C18 /* NSLayoutConstraint+PureLayout.h */,
+				E8F6AECF7E85C286A69087BE16A6CD0B /* NSLayoutConstraint+PureLayout.m */,
+				6CBF7B8C035699FB4657F0FE09973892 /* PureLayout.h */,
+				EF1FED1D4B4E81C4A00555A82826BE05 /* PureLayout+Internal.h */,
+				05D363B7ECD96499FE09D54579B3C2BC /* PureLayoutDefines.h */,
+				2996D7E98481DD3867B69987A91189DF /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 		7B326DE2768814719AF5556744E1EDB7 /* Pods-MSPChartTesting */ = {
@@ -277,110 +307,87 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7517E16435AD993B61D1FF8FCF83496E /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				42DD93174BBCFB99287692DD2D480412 /* Pods */,
 				16F455027C9838CE4EF54A7A581DA2C0 /* Products */,
 				9CE689C9808B1E7F371E489A45130B95 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		83F65399C3808A743CC1392CF12DD692 /* Support Files */ = {
+		8CE5C4EBDA389FC5F13BD12B0BF98341 /* MSPAUtils */ = {
 			isa = PBXGroup;
 			children = (
-				1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */,
-				CE0A907C755768715DA7F954CDC61B9E /* PureLayout-dummy.m */,
-				129832CAED57495522F06699874AB5E0 /* PureLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PureLayout";
-			sourceTree = "<group>";
-		};
-		92BF0923E938639C2A890A69FE825E21 /* MSPAUtils */ = {
-			isa = PBXGroup;
-			children = (
-				FF2DCBFB97B3258B59ECDFFB924EB5DF /* BABase64.h */,
-				BBEB375A722F85EF8E8EAC896BD2556B /* BABase64.m */,
-				6CEE6F11CF371B2EBE4D76D7F41B106D /* BAFunctions.h */,
-				5AB91B5EEB624E8CC8B81E3C6EF55F40 /* BAFunctions.m */,
-				C7A679EE84EB0182E0AF2DC792548A20 /* BALogger.h */,
-				FF7974D12823807229ED19E682B49FB9 /* BALogger.m */,
-				011AC8CD30C9B0F4C9C44C2D4EB5B54E /* BALogManager.h */,
-				F0A001901A62C61E308E15EBC2D2E965 /* BALogManager.m */,
-				A61DBFBF028675D44D2496DA5B8894B3 /* MSPACredentialsUtils.h */,
-				E7B47AA321EA3EF8022CF1141540D15E /* MSPACredentialsUtils.m */,
-				FCFF9A05B7B0A8AB7DF8E0FB2C65A745 /* MSPAFileSystemUtils.h */,
-				C2EF74712B606DDD0337918D2F4A82A8 /* MSPAFileSystemUtils.m */,
-				94A980A634CC236FE5A6727127FD88F7 /* MSPANetworkUtils.h */,
-				48837A0FA65644366E0F2F8D2ED6CF2B /* MSPANetworkUtils.m */,
-				EFA3A132ED69D148FBC4D8A46B3485C1 /* MSPAPlatform.h */,
-				5D098E9DD0F60341F0CA6FD17C186AF0 /* MSPARandomUtils.h */,
-				8A4E5146ECEB21DAC17EC3E385E66E63 /* MSPARandomUtils.m */,
-				271109785981C0B023B71F3CDDB8A5FD /* MSPASystemUtils.h */,
-				02B1FC8CB7CB2831D0C7633A1D5E5000 /* MSPASystemUtils.m */,
-				F4B9B7A3812E88634892D7E8527B6F53 /* MSPAVersionUtils.h */,
-				E7F88BCB7AE093D4F8A5757E9A8D7FE7 /* MSPAVersionUtils.m */,
-				BB12859DF4D4D8008FA375A6CF1F6ECF /* NSAlert+MSPAUtils.h */,
-				4DEBCC2D246AD2BC80F96CE8462A6245 /* NSAlert+MSPAUtils.m */,
-				10A0555396195A39AF8A7B77AC032978 /* NSArray+MSPAUtils.h */,
-				1C07F101752760AEAE9FD93B59015DB4 /* NSArray+MSPAUtils.m */,
-				369B680CC250D1EF96EBEA8424AD827B /* NSAttributedString+MSPAUtils.h */,
-				651201B833B2EE58B7696C5ABECF7ACB /* NSAttributedString+MSPAUtils.m */,
-				EBC4B33F1AEADCF9D15D81BCCF249ED5 /* NSBundle+MSPAUtils.h */,
-				BCD5205AC45B728F2840C98BEEF504D5 /* NSBundle+MSPAUtils.m */,
-				6E0D1E635EA0BF096112A8DACE17CA3E /* NSButton+MSPAUtils.h */,
-				5DE06466942AC239E03FD6DD1F149C3C /* NSButton+MSPAUtils.m */,
-				62D02ABF3149627D38C1D7BCC9B127CF /* NSDateFormatter+MSPAUtils.h */,
-				72B0F114A67F450EA2D724F1F094395E /* NSDateFormatter+MSPAUtils.m */,
-				2FCCB992415ACDE2E3AA4B146E18A1A8 /* NSFileManager+MSPAUtils.h */,
-				3B6BCDC221F8FA75574C13D20CC47228 /* NSFileManager+MSPAUtils.m */,
-				1E3F8C1ED6CDE282E00C2FBABBE9223F /* NSImage+MSPAUtils.h */,
-				4EAD4FAC1FB6091420BA4F480A443119 /* NSImage+MSPAUtils.m */,
-				3DF1336481E618C5FB11A90CC3B2CC13 /* NSMutableString+MSPAUtils.h */,
-				748347CCB80EE57768BE552CB7EC875E /* NSMutableString+MSPAUtils.m */,
-				EA3944AA4E10458B09D23C8F34CD82F6 /* NSScreen+MSPAUtils.h */,
-				CB310E61BD5C5102ED2A532701516D32 /* NSScreen+MSPAUtils.m */,
-				114AAE2BB4ED486657FF57801246BE4E /* NSString+MSPAUtils.h */,
-				6FF19E5E6CE129271515F89D33BA2A28 /* NSString+MSPAUtils.m */,
-				170FC6119F66A89A67ACED109D99591A /* NSWindow+MSPAUtils.h */,
-				E06EA15CAF6F8E0D5BEABF937FD08D50 /* NSWindow+MSPAUtils.m */,
-				94995B41DC33D995325E21766733D27E /* macOS Adapters */,
-				5C91F819F36CEE6F67C10E63F189A6F3 /* Pod */,
-				B59D6140ADB417FFE1D5E4D32A7BCE5F /* Progress Indicator */,
-				9656BBFDF56CF6E956544E5E9982F30D /* Support Files */,
-				C313A7395038C5A6C10C5FD2252C7CAE /* Time Series Chart */,
+				BEAFBFE1B6D6736F9EA35189E6BB1F34 /* BABase64.h */,
+				BF4F0F0D027188123365A1EEFF9F7667 /* BABase64.m */,
+				B760EFA94E1C2FF0E610F02064E41343 /* BAFunctions.h */,
+				8CDAEACB5345AC58123B40FA60FC7F36 /* BAFunctions.m */,
+				8B693E4350D6F35C20AEC1FF8EB0CDC3 /* BALogger.h */,
+				B88660B2D3CFF58EEA87EB2B7DEA1DC0 /* BALogger.m */,
+				AE3E8552BE117515DACA7DF6D47D3D09 /* BALogManager.h */,
+				62A53B6FDF3F95EBC8AC2B44461BCC69 /* BALogManager.m */,
+				8279EE4DB8539B8577B9D8C11B4BB42E /* MSPACredentialsUtils.h */,
+				892CA51D41FF445606BECCF89531BC73 /* MSPACredentialsUtils.m */,
+				782FB66754654B682F8BCC04BEA58AC0 /* MSPAFileSystemUtils.h */,
+				D5F59EFF5EC9F5308FCBA077BD9794A8 /* MSPAFileSystemUtils.m */,
+				755E3AA7F7217C61B86826AD2A01C18E /* MSPANetworkUtils.h */,
+				7FEF89E5243AE57E92B653FF00F29232 /* MSPANetworkUtils.m */,
+				06CBD7D6A6BD60633FAB49F15697A801 /* MSPAPlatform.h */,
+				3FD98BA433EBD10007F939CFC8E2E2BE /* MSPAProgressIndicatorView.h */,
+				F38EB2E6806202A8F3F17CA9B907F2AF /* MSPAProgressIndicatorView.m */,
+				8FF18F66BA903973626F42E5B00F28A9 /* MSPARandomUtils.h */,
+				B3AAEFC03A82565CB0E7576684D4D200 /* MSPARandomUtils.m */,
+				373C8B73E573A99A44A2C1189D6C3F03 /* MSPASystemUtils.h */,
+				BC3D5D6275FF0D562A73F436654788DA /* MSPASystemUtils.m */,
+				C49036A5F8841698CF2A5D0E5F1B0310 /* MSPATimeSeriesCanvasView.h */,
+				D46B129B3200180850DD296B0B638FA2 /* MSPATimeSeriesCanvasView.m */,
+				E7341C711AD2FB1061232CCEF238F98D /* MSPATimeSeriesChartBase.h */,
+				67BEC2DCE24538476B8EEB11B5198873 /* MSPATimeSeriesChartBase.m */,
+				DF8D9BBCB6B560C184CA0BF20D3A245C /* MSPATimeSeriesChartView.h */,
+				D987F9A1590B8555BEFCDBACCA8CD32F /* MSPATimeSeriesChartView.m */,
+				48496A540A4BA4A3621D9A150105B67E /* MSPATimeSeriesDataProcessor.h */,
+				BFE3CCBB3016D8666A312A46637414FD /* MSPATimeSeriesDataProcessor.m */,
+				A64E5FDCCBE46ED825BE5344C0C5497D /* MSPATimeSeriesEntry.h */,
+				EEF7F998332A72C183F7570863F7D381 /* MSPATimeSeriesEntry.m */,
+				82633FF958F314193DD023E336C46D0A /* MSPAVersionUtils.h */,
+				AC028733C470CFD3102E83A7CF091CA1 /* MSPAVersionUtils.m */,
+				4FB89BE4D7CDDE002D35E87CA78AFCF4 /* MSPDView.h */,
+				3A80FF7C988F65D6A324474538E27954 /* MSPDView.m */,
+				C752EE7C008546720B32B2E89A8856B6 /* NSAlert+MSPAUtils.h */,
+				3112EC5D42BFD0E39A7886E660E79AB2 /* NSAlert+MSPAUtils.m */,
+				E0FCAF1F4EC884F9701C564B6D892FF2 /* NSArray+MSPAUtils.h */,
+				04ADEBF7166F1DCE4173680A91EEA852 /* NSArray+MSPAUtils.m */,
+				BDFADF174010B132BC9A7FDB153E9577 /* NSAttributedString+MSPAUtils.h */,
+				20B612CAB9F797A3B8C3B09D051CA1A3 /* NSAttributedString+MSPAUtils.m */,
+				A2A90C219C45E4DDBF8F9D03C1F267C2 /* NSBezierPath+MSPAUtils.h */,
+				CEE619F24BD17B3EA5793D55E84F005F /* NSBezierPath+MSPAUtils.m */,
+				5285AE70194025006766A632D06E449D /* NSBundle+MSPAUtils.h */,
+				94ED7A19CB653372D4F99A3E078AEA49 /* NSBundle+MSPAUtils.m */,
+				49B09D1F144B2E3E425ABE9910F02F92 /* NSButton+MSPAUtils.h */,
+				CDE8B1E4B8A354579E33905A82F38855 /* NSButton+MSPAUtils.m */,
+				403E957BD3FD239F387F1D5D6150F0BA /* NSColor+MSPAUtils.h */,
+				7FD256F7DC268868DCC3C7943A2CD942 /* NSColor+MSPAUtils.m */,
+				3231C345F876DF14B8C2905C1A8735CD /* NSDateFormatter+MSPAUtils.h */,
+				795A5481967EA257A4026478B6A5C0CF /* NSDateFormatter+MSPAUtils.m */,
+				C76596C31E5FE0BEFB831E0E408FFD54 /* NSFileManager+MSPAUtils.h */,
+				169D9A282A6E0D5A497527E511C63AF7 /* NSFileManager+MSPAUtils.m */,
+				826A38860A326C4C0EEE93B5A292DCBC /* NSImage+MSPAUtils.h */,
+				098D37F2A5C17602EB3E3401B76A8066 /* NSImage+MSPAUtils.m */,
+				0F0DD8266859770AC052127D5DF9CDBA /* NSMutableString+MSPAUtils.h */,
+				4AABB3DEA1BB922BDCA79BEF2CBA82CB /* NSMutableString+MSPAUtils.m */,
+				AD3ADFAAB7A9FF95737581BFEDFC8D18 /* NSScreen+MSPAUtils.h */,
+				B663FC84F66B5638C392CAE88B71080E /* NSScreen+MSPAUtils.m */,
+				7DBA584B486E051E8854A9A4BC1C3F7C /* NSScrollView+MSPAUtils.h */,
+				2561FAACA7B375C791F75F7F9E6B9F18 /* NSScrollView+MSPAUtils.m */,
+				E5B76C0B090C19557C1808A9E475C6BE /* NSString+MSPAUtils.h */,
+				75DE17199858E9E088947D1DA7220557 /* NSString+MSPAUtils.m */,
+				AA51B6616BCD5D880CA1CA5E7C5DC237 /* NSView+MSPAUtils.h */,
+				5DB010A3C6EBC07088180820D33817AC /* NSView+MSPAUtils.m */,
+				D9C2EA8727E0066EDD9523BE9BA4946A /* NSWindow+MSPAUtils.h */,
+				610197568AE39D422417F6004ADAA4BC /* NSWindow+MSPAUtils.m */,
+				02B7879A86D3983219ADF7FB6E0AF30B /* Support Files */,
 			);
 			name = MSPAUtils;
-			path = "/Users/rkopa/development/solarwinds/mspa/cross-platform-utils/MSPAUtils";
-			sourceTree = "<absolute>";
-		};
-		94995B41DC33D995325E21766733D27E /* macOS Adapters */ = {
-			isa = PBXGroup;
-			children = (
-				8FB27A51CE7F3FC8337E6E2FBBC94CF6 /* MSPDView.h */,
-				261450766A735807F0DC1EE298F75FA9 /* MSPDView.m */,
-				D6091F37741F121B472905F7AD11E94D /* NSBezierPath+MSPAUtils.h */,
-				DA62B29AC21B3F15A1BB31700206A424 /* NSBezierPath+MSPAUtils.m */,
-				BF82540E161CF692180C417D76B9FFE8 /* NSColor+MSPAUtils.h */,
-				8E220C2221BD86ED34F909402A28A11A /* NSColor+MSPAUtils.m */,
-				0AC0F2DF86875018F942440F262AD6F9 /* NSScrollView+MSPAUtils.h */,
-				F59DA12393B9E452237A0489C3042085 /* NSScrollView+MSPAUtils.m */,
-				931F0AE319CB82B5D9CB5C8B0B3F466A /* NSView+MSPAUtils.h */,
-				18B72C15C868F5312E616CFAED28DD54 /* NSView+MSPAUtils.m */,
-			);
-			name = "macOS Adapters";
-			path = "Source/macOS Adapters";
-			sourceTree = "<group>";
-		};
-		9656BBFDF56CF6E956544E5E9982F30D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF0377FE6A26030A7CB5A0A8769EB706 /* MSPAUtils.xcconfig */,
-				AEA4B20C93A1A76E8E32CBD9611D8AEC /* MSPAUtils-dummy.m */,
-				44506F78E4A4CCDD0DE0D4EEBE6F867D /* MSPAUtils-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../../10.11_chart/MSPChartTesting/Pods/Target Support Files/MSPAUtils";
+			path = MSPAUtils;
 			sourceTree = "<group>";
 		};
 		9CE689C9808B1E7F371E489A45130B95 /* Targets Support Files */ = {
@@ -389,60 +396,6 @@
 				7B326DE2768814719AF5556744E1EDB7 /* Pods-MSPChartTesting */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB198DB8875A98298498BA74D26897FE /* PureLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AB198DB8875A98298498BA74D26897FE /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				45945D8F3DAD605A883B94C9128AB860 /* ALView+PureLayout.h */,
-				5F48602517ECB353DCB8C98633FCAB09 /* ALView+PureLayout.m */,
-				7D7DC82AF6F6260F768473B043656411 /* NSArray+PureLayout.h */,
-				873FC3649F700A415796A33CE2641055 /* NSArray+PureLayout.m */,
-				E41D14862AA071D9F8A5E652619270AF /* NSLayoutConstraint+PureLayout.h */,
-				F545BE94C48C8AFEED462FE6F8D3597A /* NSLayoutConstraint+PureLayout.m */,
-				57E956DAAFFAB936CB60D9273E05D498 /* PureLayout.h */,
-				D10E06F10AB8CECE8141D32B75CCA4FE /* PureLayout+Internal.h */,
-				ACF183D164AEA03A4AA2A2F5185EFE7D /* PureLayoutDefines.h */,
-				83F65399C3808A743CC1392CF12DD692 /* Support Files */,
-			);
-			name = PureLayout;
-			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		B59D6140ADB417FFE1D5E4D32A7BCE5F /* Progress Indicator */ = {
-			isa = PBXGroup;
-			children = (
-				3853CD644C06D2DD9EBE326D813EEC9D /* MSPAProgressIndicatorView.h */,
-				D752857E8A940EAFA932E382CBC9390B /* MSPAProgressIndicatorView.m */,
-			);
-			name = "Progress Indicator";
-			path = "Source/Progress Indicator";
-			sourceTree = "<group>";
-		};
-		C313A7395038C5A6C10C5FD2252C7CAE /* Time Series Chart */ = {
-			isa = PBXGroup;
-			children = (
-				27B0BF103CC22A8AB41C9548A6041832 /* MSPATimeSeriesCanvasView.h */,
-				81F490F91D1D54E9626B69B92A6367A2 /* MSPATimeSeriesCanvasView.m */,
-				DE833F7E4C32541D08B9D94CE84E289F /* MSPATimeSeriesChartBase.h */,
-				9700D46062171C3EC8949F9F096A11EC /* MSPATimeSeriesChartBase.m */,
-				6E897CCE6B60185CDBCC9AF6956F135F /* MSPATimeSeriesChartView.h */,
-				7D2B41995371BB3816E5964564E9F3D0 /* MSPATimeSeriesChartView.m */,
-				614DDD56D4BBDF5B837F6E4B42B46DC5 /* MSPATimeSeriesDataProcessor.h */,
-				DE954B2B3AAB65B2B339139385F80B00 /* MSPATimeSeriesDataProcessor.m */,
-				CDCA431F2E3B10EC1D5E103F55FD7B37 /* MSPATimeSeriesEntry.h */,
-				0A7238E85CBE88EE4CE4885B4784559E /* MSPATimeSeriesEntry.m */,
-			);
-			name = "Time Series Chart";
-			path = "Source/Time Series Chart";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,44 +421,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1CDAF60536D494231A71DA204DE5759 /* Headers */ = {
+		DFEA22FC91FBCDF5EB4AF7B06B525B99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF81E02FCCC113ADA871412461AB0D49 /* BABase64.h in Headers */,
-				65435B3C2DD1C60BE418BDE6965D2C69 /* BAFunctions.h in Headers */,
-				C885F61159CEB74AF2EE78507CF1205A /* BALogger.h in Headers */,
-				3596509E8B013C4FDA0EFF9422580A8F /* BALogManager.h in Headers */,
-				76251DBB1EA66CCE857ACC6A3B0D122B /* MSPACredentialsUtils.h in Headers */,
-				B2DC39E0474A251C83765113F221C2CB /* MSPAFileSystemUtils.h in Headers */,
-				0A8115DEDA6D8FDF712DCF195C492552 /* MSPANetworkUtils.h in Headers */,
-				589B2C92A96B6F331B95EC8BC67FEAC0 /* MSPAPlatform.h in Headers */,
-				5B6175A4EAD6CA2D68945D338B1825A2 /* MSPAProgressIndicatorView.h in Headers */,
-				2D704B613D1699A103DFBEB5FD429B5F /* MSPARandomUtils.h in Headers */,
-				3E38F457E23E7CD25D46FB750754949C /* MSPASystemUtils.h in Headers */,
-				54238A273A3E7841F2076545E36CF417 /* MSPATimeSeriesCanvasView.h in Headers */,
-				9A75E6B23638CD88D7F29CAF40C710D8 /* MSPATimeSeriesChartBase.h in Headers */,
-				F50F308D483BC7DA2C1568976F488CE7 /* MSPATimeSeriesChartView.h in Headers */,
-				F8B6F43515926F21A1C6087694E40CD0 /* MSPATimeSeriesDataProcessor.h in Headers */,
-				242FA6107FCF2138C5917CC4DD1C2D70 /* MSPATimeSeriesEntry.h in Headers */,
-				CA106F67DB5BDB2CE14866728C35FB97 /* MSPAVersionUtils.h in Headers */,
-				88181DE841227E514E9340ECD3E62F08 /* MSPDView.h in Headers */,
-				762DF1CEFC987A5D780AAC740D1FBD47 /* NSAlert+MSPAUtils.h in Headers */,
-				81F238E784FE7DF6E584DD824FF76DEA /* NSArray+MSPAUtils.h in Headers */,
-				E19036BE589237E2331E0BD9EBE6BE07 /* NSAttributedString+MSPAUtils.h in Headers */,
-				E2DE88474363C3B5901A813F5843D8A2 /* NSBezierPath+MSPAUtils.h in Headers */,
-				2970AE16A5D20C19734B0993A52035A9 /* NSBundle+MSPAUtils.h in Headers */,
-				862C877793F9A90D05C3A00E5900C838 /* NSButton+MSPAUtils.h in Headers */,
-				98AF9F6B7A19CC8660198CA7E77FAE5D /* NSColor+MSPAUtils.h in Headers */,
-				EC7B26FDE96F1ACBDFE7E5985FC9D098 /* NSDateFormatter+MSPAUtils.h in Headers */,
-				8525D0422A2C2A35B4274518D95E8082 /* NSFileManager+MSPAUtils.h in Headers */,
-				947549CB2F99B8F6495C773AD723A0FE /* NSImage+MSPAUtils.h in Headers */,
-				969060947C218376D074B6048074CEBC /* NSMutableString+MSPAUtils.h in Headers */,
-				88C5B6933BDE6F4FBDC751E15C6FB866 /* NSScreen+MSPAUtils.h in Headers */,
-				9AF25611A4B3E3299C94FB113BA650EC /* NSScrollView+MSPAUtils.h in Headers */,
-				88D436472250216A5BFF5BCD9462B607 /* NSString+MSPAUtils.h in Headers */,
-				4FBFD26029CF8937C35F42512FDA1A8C /* NSView+MSPAUtils.h in Headers */,
-				D811555F897FE33EF7E7B2F491EE70F9 /* NSWindow+MSPAUtils.h in Headers */,
+				7ACD7D3F99D4B17FA72025C59A1E4803 /* BABase64.h in Headers */,
+				78BDD62B866EC2447EA07A4AD2BBCC20 /* BAFunctions.h in Headers */,
+				659DD6F9E8EA4E97DE1727F1F82295DB /* BALogger.h in Headers */,
+				B6A9AEFF67EC055813634125570E7ECC /* BALogManager.h in Headers */,
+				585C0BB551FE6B743C34138912B577A8 /* MSPACredentialsUtils.h in Headers */,
+				458519F53781F9566C938357D06E0966 /* MSPAFileSystemUtils.h in Headers */,
+				10A812CE60DD9AE315B648DA7B15F455 /* MSPANetworkUtils.h in Headers */,
+				38291AEFA4C259A88A3C9352C54B7991 /* MSPAPlatform.h in Headers */,
+				CD7C040C0E25F6D6BB14BBDB9936DAA8 /* MSPAProgressIndicatorView.h in Headers */,
+				52F0CE45B72C6D9934CE303426423D6D /* MSPARandomUtils.h in Headers */,
+				4F38021237370C9ABAAD68DB29C1CAFC /* MSPASystemUtils.h in Headers */,
+				27D083E1C7AA0FB120DF53BB8E574537 /* MSPATimeSeriesCanvasView.h in Headers */,
+				092D390A1C4A3D8F7EDC592AE961F436 /* MSPATimeSeriesChartBase.h in Headers */,
+				4D5F449C026DF7C5CCB80AE0AFAC3198 /* MSPATimeSeriesChartView.h in Headers */,
+				A0D43EA64B418E38101C3E8AECEB2BA5 /* MSPATimeSeriesDataProcessor.h in Headers */,
+				B70C05510DDDC7F9DF096E68FF715E03 /* MSPATimeSeriesEntry.h in Headers */,
+				05D286B2B33561D95369574EF60E0F44 /* MSPAVersionUtils.h in Headers */,
+				ED23AE05BABBE04725229E8339D9A15C /* MSPDView.h in Headers */,
+				B242C65748C6BD42517E9003B41FF7A9 /* NSAlert+MSPAUtils.h in Headers */,
+				D8709615A5E358C497E7536A32542588 /* NSArray+MSPAUtils.h in Headers */,
+				2B699E17E013B56D01D8354319E96DC8 /* NSAttributedString+MSPAUtils.h in Headers */,
+				FBD5E9AEBAB68E3D360C11441AA02A9A /* NSBezierPath+MSPAUtils.h in Headers */,
+				98BB089F81A25EA63253F2724AE586E9 /* NSBundle+MSPAUtils.h in Headers */,
+				8B8373A8171DC2DDDB520E001C692F9A /* NSButton+MSPAUtils.h in Headers */,
+				3C80872AE6CA281CC22F088C6BD25571 /* NSColor+MSPAUtils.h in Headers */,
+				C49516976E67C3A9EB455FEBF98353F8 /* NSDateFormatter+MSPAUtils.h in Headers */,
+				687D0E5222827BF48A17C858AAB4C945 /* NSFileManager+MSPAUtils.h in Headers */,
+				C1F751279D21798FF882464E4F2081C5 /* NSImage+MSPAUtils.h in Headers */,
+				BFB916726ECD972C4626EBD64BB25754 /* NSMutableString+MSPAUtils.h in Headers */,
+				D93F6376000DE41AE8DBD7361AA2352F /* NSScreen+MSPAUtils.h in Headers */,
+				AB166DC0688EA9A880A465ACC65D20AA /* NSScrollView+MSPAUtils.h in Headers */,
+				C3AD2319EE5BCA074A3050EC65BEF1B8 /* NSString+MSPAUtils.h in Headers */,
+				2FEBCD43E0008D95E513D6E985EB9BEA /* NSView+MSPAUtils.h in Headers */,
+				D04F83B2BE6A0723C019074ACC0648F3 /* NSWindow+MSPAUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,8 +469,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C76A98CF2C8F3A4F53FBDE59FAC26C7F /* Build configuration list for PBXNativeTarget "MSPAUtils" */;
 			buildPhases = (
-				A1CDAF60536D494231A71DA204DE5759 /* Headers */,
-				44B403D6A504BB911F6031E8104292D6 /* Sources */,
+				DFEA22FC91FBCDF5EB4AF7B06B525B99 /* Headers */,
+				24590792484189BAB5CFFE436AB8CD8B /* Sources */,
 				9273FCF932F849FC1620F705002F2F2F /* Frameworks */,
 			);
 			buildRules = (
@@ -594,44 +547,44 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44B403D6A504BB911F6031E8104292D6 /* Sources */ = {
+		24590792484189BAB5CFFE436AB8CD8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C212F94F2FA7D293C9899A71747B8A /* BABase64.m in Sources */,
-				04B24E779539AE5D14EE0A60A8113569 /* BAFunctions.m in Sources */,
-				8960DE4AB615FC72B22F223F56154DC4 /* BALogger.m in Sources */,
-				9F76C4CE01019A63C44DE2061BA89DB9 /* BALogManager.m in Sources */,
-				E76C9ADE417002E7225BDB7EE88F3241 /* MSPACredentialsUtils.m in Sources */,
-				3972FE6DA42C0738270CD6602063CC4F /* MSPAFileSystemUtils.m in Sources */,
-				B80DBAB77C2D1D23E91997BCE28FDC0B /* MSPANetworkUtils.m in Sources */,
-				E99FDF5A825456C20167849DBB445AAD /* MSPAProgressIndicatorView.m in Sources */,
-				743DEB180E0450A81926E709E2966368 /* MSPARandomUtils.m in Sources */,
-				B298F3012AAC630AD52A9A95A4CD3AF6 /* MSPASystemUtils.m in Sources */,
-				0EFD3B7774FD9FF10AE45852B908B95D /* MSPATimeSeriesCanvasView.m in Sources */,
-				493F8DD968A4688D4D7AF1D051313CA2 /* MSPATimeSeriesChartBase.m in Sources */,
-				AF66772131C0D8D90E7C480971C01B07 /* MSPATimeSeriesChartView.m in Sources */,
-				BDBA31D903BEA3DD5263CF61C9545452 /* MSPATimeSeriesDataProcessor.m in Sources */,
-				56F1C49CEEA8865A608A1364037A22D0 /* MSPATimeSeriesEntry.m in Sources */,
-				1A47C8C8116340FEF41A586D23D43154 /* MSPAUtils-dummy.m in Sources */,
-				3878F03A2DDC8702ED89ADDCD7403E9B /* MSPAVersionUtils.m in Sources */,
-				BE80B43F2BA5A2083D3210A6E57627AA /* MSPDView.m in Sources */,
-				32B5A5F662F69A3C1A97745803365016 /* NSAlert+MSPAUtils.m in Sources */,
-				747987D29CA3589AF01BE3BA646BAFD4 /* NSArray+MSPAUtils.m in Sources */,
-				4E2CEB8B77C15CD86361545501F80968 /* NSAttributedString+MSPAUtils.m in Sources */,
-				AE83166A0867A01144499B5DBDB678BA /* NSBezierPath+MSPAUtils.m in Sources */,
-				792E24678B378A2D89B4BE54015CE29D /* NSBundle+MSPAUtils.m in Sources */,
-				7471F44054F5612F2BBBE24571572336 /* NSButton+MSPAUtils.m in Sources */,
-				9B723E893BC671DC51AE92DB1D7E03BA /* NSColor+MSPAUtils.m in Sources */,
-				0B15A23E735D63166E9391C62C120C21 /* NSDateFormatter+MSPAUtils.m in Sources */,
-				5248C28C5725553B0C16AAAA87AE1103 /* NSFileManager+MSPAUtils.m in Sources */,
-				B69F73B7EEC60DAF9E57CB08B6E649C2 /* NSImage+MSPAUtils.m in Sources */,
-				EDB33FA565B234575E23BC88F572A667 /* NSMutableString+MSPAUtils.m in Sources */,
-				0C3B8F913C84A124E143B90624C4C267 /* NSScreen+MSPAUtils.m in Sources */,
-				73013105CED999430B9868EAB85EBED5 /* NSScrollView+MSPAUtils.m in Sources */,
-				F4C0C8380B8EACA4C340E87AFE1D699D /* NSString+MSPAUtils.m in Sources */,
-				6FA1965187FE3ECFE763530074898408 /* NSView+MSPAUtils.m in Sources */,
-				78B078E7AD4F37CE23167BA0F9D1E50B /* NSWindow+MSPAUtils.m in Sources */,
+				6B0487CE943F9752D1C6F6EBC25D7EB1 /* BABase64.m in Sources */,
+				48B57A2AC68C06F17CD076E67FD6BF40 /* BAFunctions.m in Sources */,
+				0E145628C1778C1117EE03207BE8568F /* BALogger.m in Sources */,
+				117901F170DE5A8E419417FF554724DF /* BALogManager.m in Sources */,
+				4F64C2CC3AEEB2BB4FA2A4B503B63521 /* MSPACredentialsUtils.m in Sources */,
+				E8DB58B029D4CD63591422C5C575C9B8 /* MSPAFileSystemUtils.m in Sources */,
+				36C83EB13C46B9816018F3E94537CBBF /* MSPANetworkUtils.m in Sources */,
+				BA70CA3D6A38D270B0AD662971ADFD7D /* MSPAProgressIndicatorView.m in Sources */,
+				BBAC602265C1050507FDB2B273A87C24 /* MSPARandomUtils.m in Sources */,
+				C1A3932E39F685B2ED3C7463BB11FC69 /* MSPASystemUtils.m in Sources */,
+				35709CEA49803773104A05BCCC85F970 /* MSPATimeSeriesCanvasView.m in Sources */,
+				1D20E52D2728B2342B464038A75CF4E7 /* MSPATimeSeriesChartBase.m in Sources */,
+				90F059F7E98AC31D6BCB726A8A606802 /* MSPATimeSeriesChartView.m in Sources */,
+				2ACBAED496740A6F8C1C447746E7C9AE /* MSPATimeSeriesDataProcessor.m in Sources */,
+				3D8639F2FCCCC5B665932B336BCC0453 /* MSPATimeSeriesEntry.m in Sources */,
+				B23ED60CE445E36A91E7C098FDA2A6B4 /* MSPAUtils-dummy.m in Sources */,
+				FF0AD325CCAECD4A1F3CCC30BFECE181 /* MSPAVersionUtils.m in Sources */,
+				65E800F977A058A091F0B9593C8B08F7 /* MSPDView.m in Sources */,
+				F70FE2B03B04B05CA1BE82FEAF485AD0 /* NSAlert+MSPAUtils.m in Sources */,
+				F1BBBF8F0B54D846ED6BAA15E1D010A1 /* NSArray+MSPAUtils.m in Sources */,
+				BABE60D9C83492CBB72612E240B133A7 /* NSAttributedString+MSPAUtils.m in Sources */,
+				71993E1DF5CC2799ED15ED56B87649E4 /* NSBezierPath+MSPAUtils.m in Sources */,
+				AD33EBE0629FD0CB0B0D0825424D450B /* NSBundle+MSPAUtils.m in Sources */,
+				3C3B6C9123441080625E62F43FCF8EBE /* NSButton+MSPAUtils.m in Sources */,
+				34F909D0CF5063D587959EA1E1CC2AF3 /* NSColor+MSPAUtils.m in Sources */,
+				B60EDC6E1125264954B3ACEB4AB72E17 /* NSDateFormatter+MSPAUtils.m in Sources */,
+				95AEEA18B336EFA7A21FCD0CADD9A8B8 /* NSFileManager+MSPAUtils.m in Sources */,
+				74269A80C21675F525E2C5D9D50925D4 /* NSImage+MSPAUtils.m in Sources */,
+				958790D1C7022989FC960913DE0C66B5 /* NSMutableString+MSPAUtils.m in Sources */,
+				175626C61A422551A30A52BB4AC2CAD2 /* NSScreen+MSPAUtils.m in Sources */,
+				9EAF4647E20969DEA1C7CB7B728833D1 /* NSScrollView+MSPAUtils.m in Sources */,
+				FFBDD6678F67A994311D6645F9794AE6 /* NSString+MSPAUtils.m in Sources */,
+				6B6A5D455E13D2C40B681D7B0765D705 /* NSView+MSPAUtils.m in Sources */,
+				2292BBCD94C8009DE6E2AD99966D705A /* NSWindow+MSPAUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,7 +627,7 @@
 /* Begin XCBuildConfiguration section */
 		2E27C97EB6C491774979FC80FBBA4A79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
+			baseConfigurationReference = 83BEFE42834BB1CA5B21AA419DB90B69 /* PureLayout.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";
@@ -698,7 +651,7 @@
 		};
 		560D546D6C6DAE3561F2505CC21D1835 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1951A12F7C46D8BBF64BC9D3F882A2EA /* PureLayout.xcconfig */;
+			baseConfigurationReference = 83BEFE42834BB1CA5B21AA419DB90B69 /* PureLayout.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";
@@ -744,7 +697,7 @@
 		};
 		9B110C1EC2F2F91F404424B4378D980A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF0377FE6A26030A7CB5A0A8769EB706 /* MSPAUtils.xcconfig */;
+			baseConfigurationReference = 043620AEB87CD5CDE56F9FB5CA456E80 /* MSPAUtils.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";
@@ -913,7 +866,7 @@
 		};
 		C3C872772A3476A1D889FAC6B6C1A0DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF0377FE6A26030A7CB5A0A8769EB706 /* MSPAUtils.xcconfig */;
+			baseConfigurationReference = 043620AEB87CD5CDE56F9FB5CA456E80 /* MSPAUtils.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "-";

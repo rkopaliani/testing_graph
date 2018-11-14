@@ -1,1 +1,1 @@
-../../../../../../cross-platform-utils/MSPAUtils/Source/NSAttributedString+MSPAUtils.h
+../../../MSPAUtils/Source/NSAttributedString+MSPAUtils.h
