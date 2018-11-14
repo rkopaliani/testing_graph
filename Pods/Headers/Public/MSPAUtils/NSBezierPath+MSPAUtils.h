@@ -1,0 +1,1 @@
+../../../../../../cross-platform-utils/MSPAUtils/Source/macOS Adapters/NSBezierPath+MSPAUtils.h

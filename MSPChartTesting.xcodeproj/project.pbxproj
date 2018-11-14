@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0105A3908B0947FE5650F379 /* libPods-MSPChartTesting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 671F91EBE792E018447FEC1F /* libPods-MSPChartTesting.a */; };
 		EF6CCB21219C793700EF3A87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CCB20219C793700EF3A87 /* AppDelegate.m */; };
 		EF6CCB24219C793700EF3A87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CCB23219C793700EF3A87 /* ViewController.m */; };
 		EF6CCB26219C793800EF3A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6CCB25219C793800EF3A87 /* Assets.xcassets */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		671F91EBE792E018447FEC1F /* libPods-MSPChartTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSPChartTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9E84D051FCF494D0B6466A /* Pods-MSPChartTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPChartTesting.debug.xcconfig"; path = "Target Support Files/Pods-MSPChartTesting/Pods-MSPChartTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		9E1092EDDBB553D4CB54B756 /* Pods-MSPChartTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPChartTesting.release.xcconfig"; path = "Target Support Files/Pods-MSPChartTesting/Pods-MSPChartTesting.release.xcconfig"; sourceTree = "<group>"; };
 		EF6CCB1C219C793700EF3A87 /* MSPChartTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSPChartTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6CCB1F219C793700EF3A87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF6CCB20219C793700EF3A87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0105A3908B0947FE5650F379 /* libPods-MSPChartTesting.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E696AA40DC4CC3795BB9FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D9E84D051FCF494D0B6466A /* Pods-MSPChartTesting.debug.xcconfig */,
+				9E1092EDDBB553D4CB54B756 /* Pods-MSPChartTesting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98D40425C6576879E7BC99A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				671F91EBE792E018447FEC1F /* libPods-MSPChartTesting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF6CCB13219C793700EF3A87 = {
 			isa = PBXGroup;
 			children = (
 				EF6CCB1E219C793700EF3A87 /* MSPChartTesting */,
 				EF6CCB1D219C793700EF3A87 /* Products */,
+				7E696AA40DC4CC3795BB9FAA /* Pods */,
+				98D40425C6576879E7BC99A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF6CCB30219C793800EF3A87 /* Build configuration list for PBXNativeTarget "MSPChartTesting" */;
 			buildPhases = (
+				66E554EBED571258F4054F30 /* [CP] Check Pods Manifest.lock */,
 				EF6CCB18219C793700EF3A87 /* Sources */,
 				EF6CCB19219C793700EF3A87 /* Frameworks */,
 				EF6CCB1A219C793700EF3A87 /* Resources */,
@@ -101,11 +126,13 @@
 				TargetAttributes = {
 					EF6CCB1B219C793700EF3A87 = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = YT3GCGK3Z7;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = EF6CCB17219C793700EF3A87 /* Build configuration list for PBXProject "MSPChartTesting" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,6 +160,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E554EBED571258F4054F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSPChartTesting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF6CCB18219C793700EF3A87 /* Sources */ = {
@@ -272,6 +324,7 @@
 		};
 		EF6CCB31219C793800EF3A87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9E84D051FCF494D0B6466A /* Pods-MSPChartTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MSPChartTesting/MSPChartTesting.entitlements;
@@ -279,10 +332,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YT3GCGK3Z7;
 				INFOPLIST_FILE = MSPChartTesting/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beanywhere.MSPChartTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -290,6 +340,7 @@
 		};
 		EF6CCB32219C793800EF3A87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1092EDDBB553D4CB54B756 /* Pods-MSPChartTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MSPChartTesting/MSPChartTesting.entitlements;
@@ -297,10 +348,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YT3GCGK3Z7;
 				INFOPLIST_FILE = MSPChartTesting/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beanywhere.MSPChartTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

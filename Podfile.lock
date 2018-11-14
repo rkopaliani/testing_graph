@@ -1,0 +1,23 @@
+PODS:
+  - MSPAUtils (1.1.1)
+  - PureLayout (3.1.4)
+
+DEPENDENCIES:
+  - MSPAUtils (from `/Users/rkopa/development/solarwinds/mspa/cross-platform-utils/MSPAUtils`)
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PureLayout
+
+EXTERNAL SOURCES:
+  MSPAUtils:
+    :path: "/Users/rkopa/development/solarwinds/mspa/cross-platform-utils/MSPAUtils"
+
+SPEC CHECKSUMS:
+  MSPAUtils: 5f43610cec91e5af1340438f7f8f68fcb62acc00
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+
+PODFILE CHECKSUM: 68b15bb5c7a3c58154742bbd37dd8a036e569964
+
+COCOAPODS: 1.6.0.beta.1
